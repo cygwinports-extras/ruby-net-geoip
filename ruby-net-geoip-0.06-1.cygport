@@ -1,0 +1,9 @@
+inherit ruby
+
+DESCRIPTION="Ruby GeoIP bindings"
+HOMEPAGE="http://www.maxmind.com/app/ruby"
+SRC_URI="http://www.maxmind.com/download/geoip/api/ruby/${P#ruby-}.tar.gz"
+SRC_DIR="${P#ruby-}"
+
+# tests/tc_Net::GeoIP.rb
+USE_MANAGED_MOUNT=1
