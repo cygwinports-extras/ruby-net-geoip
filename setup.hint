@@ -1,0 +1,4 @@
+category: Ruby
+requires: cygwin libGeoIP1 ruby
+sdesc: "Ruby GeoIP bindings"
+ldesc: "Ruby bindings for the MaxMind GeoIP library"

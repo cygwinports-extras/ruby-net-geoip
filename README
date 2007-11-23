@@ -1,0 +1,56 @@
+ruby-net-geoip
+------------------------------------------
+Ruby bindings for the MaxMind GeoIP library.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libGeoIP1-1.4.3-1
+  ruby-1.8.6-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ruby-1.8.6-1
+
+Canonical website:
+  http://www.maxmind.com/app/ruby
+
+Canonical download:
+  http://www.maxmind.com/download/geoip/api/ruby/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-net-geoip-0.0.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-net-geoip-0.0.6-X.cygport all
+
+This will create:
+  /usr/src/ruby-net-geoip-0.0.6-X-src.tar.bz2
+  /usr/src/ruby-net-geoip-0.0.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/net/geoip.so
+  /usr/share/doc/Cygwin/ruby-net-geoip-0.06.README
+  /usr/share/doc/ruby-net-geoip-0.06/README
+  /usr/share/doc/ruby-net-geoip-0.06/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.0.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
